@@ -2,7 +2,7 @@
 1. instalar github pages con npm
     - npm i --save-dev gh-pages
 2. configurar en el archivo vite.config.js la ruta base del proyecto.
-    - Ejemplo:   base: 'https://perea07.github.io/github-pages-react'
+    - Ejemplo:   base: 'https://perea07.github.io/react-shopping-cart'
 3. dentro del archivo package.json configurar en el apartado de scripts los siguientes comandos.
     - "predeploy": "npm run build"
     - "deploy": "gh-pages -d dist"
